@@ -1,0 +1,31 @@
+@import url(./__wrapper/page__wrapper.css);
+
+.page{
+    background-color: #2A2C2F;
+    min-width: 1280px;
+    max-width: 1600px;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    color: white;
+}
+
+@media screen and (max-width: 1024px){
+    .page{
+        min-width: 1024px;
+        max-width: 1279px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page{
+        min-width: 768px;
+        max-width: 1023px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page{
+        min-width: 320px;
+        max-width: 767px;
+    }
+}

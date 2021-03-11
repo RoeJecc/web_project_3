@@ -1,0 +1,30 @@
+.lead__image{
+    height: 615px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image{
+        height: 580px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image{
+        height: 480px;
+        max-width: 768px;
+        width: 100vw;
+        position: relative;
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image{
+        height: 200px;
+        max-width: 320px;
+        width: 100vw;
+        position: relative;
+        overflow: visible;
+    }
+}
