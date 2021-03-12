@@ -3,7 +3,7 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__list-text/intro__list-text.css);
-@import url(./__text/_bold/intro__text_bold.css);
+@import url(./__list-text/_type/intro__list-text_type_bold.css);
 
 .intro{
     padding: 0 100px;
