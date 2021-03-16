@@ -1,6 +1,6 @@
 .page__wrapper{
     max-width: 1184px;
-    margin: 0;
+    margin: 0 auto;
     width: calc(100% - 96px);
 }
 

@@ -13,8 +13,7 @@
     .lead__image{
         max-height: 480px;
         max-width: 768px;
-        width: 100vw;
-        position: relative;
+        width: calc(100% + 48px);
     }
 }
 
@@ -22,7 +21,6 @@
     .lead__image{
         max-height: 200px;
         max-width: 320px;
-        width: 100vw;
-        position: relative;
+        width: calc(100% + 32px);
     }
 }
