@@ -10,18 +10,19 @@
     grid-template-columns: 460px 484px;
     grid-template-rows: fit-content(152px) fit-content(571px);
     grid-gap: 48px 40px;
-    padding: 0 100px;
-    margin: 0;
+    padding: 0;
+    margin: 0 100px;
+    width: 100%;
 }
 
 .place + .place {
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 @media screen and (max-width: 1024px) {
     .place{
         grid-template-columns: 440px 456px;
-        padding: 0;
+        margin: 0;
     }   
 }
 
@@ -29,11 +30,11 @@
     .place{
         grid-template-columns: 340px 352px;
         grid-gap: 48px 28px;
-        padding: 0;
+        margin: 0;
     }
 
     .place + .place{
-        margin-top: 72px;
+        padding-top: 72px;
     }
 }
 
@@ -42,10 +43,10 @@
         grid-template-columns: 100%;
         grid-template-rows: repeat(4, fit-content);
         grid-gap: 30px;
-        padding: 0;
+        margin: 0;
     }
 
     .place + .place {
-        margin-top: 48px;
+        padding-top: 48px;
     }
 }
