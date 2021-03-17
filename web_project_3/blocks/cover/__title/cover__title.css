@@ -2,16 +2,22 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
-    margin-bottom: 32px;
-    text-decoration: none;
+    margin: 0 0 32px;
     text-align: center;
     color: white;
     z-index: 1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
     .cover__title{
         max-width: 100%;
+        font-size: 56px;
+        line-height: 58px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title{
         font-size: 32px;
         line-height: 35px;
     }

@@ -9,3 +9,7 @@ This project is a web page made to practice and text responsiveness. The goal he
 **Technologies used**
 
 To finish this project we use a combination of flex box, grid, and responsive tools (i.e. percentages) in order to make the page work fluently. 
+
+**Link**
+
+https://RoeJecc.github.io/web_project_3

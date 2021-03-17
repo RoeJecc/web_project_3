@@ -1,6 +1,12 @@
 .places{
     box-sizing: border-box;
     width: 100%;
-    padding: 0;
+    padding: 0 100px;
     margin: 0;
+}
+ 
+@media screen and (max-width: 1024px) {
+    .places{
+        padding: 0;
+    }   
 }

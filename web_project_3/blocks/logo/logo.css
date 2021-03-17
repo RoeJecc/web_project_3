@@ -1,6 +1,3 @@
-.logo{
-}
-
 @media screen and (max-width: 320px) {
     .logo{
         object-fit: contain;

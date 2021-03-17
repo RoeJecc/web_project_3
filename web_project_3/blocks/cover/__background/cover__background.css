@@ -2,10 +2,10 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    background-size: cover;
     transition: opacity .4s linear;
 }
 .cover__background:hover{
-    opacity: .5;
+    opacity: .8;
     transition: opacity .4s linear;
 }
-
