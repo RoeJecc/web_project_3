@@ -1,11 +1,8 @@
 .cover__background{
     width: 100%;
     height: 100%;
-    position: absolute;
+    background: url(../../../images/cover-route-66.jpg);
     background-size: cover;
-    transition: opacity .4s linear;
-}
-.cover__background:hover{
-    opacity: .8;
-    transition: opacity .4s linear;
+    background-repeat: no-repeat;
+    background-position: center;
 }

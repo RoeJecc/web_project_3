@@ -17,12 +17,20 @@
 @media screen and (max-width: 1024px) {
     .intro{
         margin: 0;
+        padding: 0 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro{
         width: 100%;
+        padding: 0 24px;
         max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro{
+        padding: 0 16px;
     }
 }

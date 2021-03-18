@@ -4,14 +4,8 @@
     width: calc(100% - 96px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .page__wrapper{
-        width: calc(100% - 48px);
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .page__wrapper{
-        width: calc(100% - 32px);
+        width: 100%;
     }
 }

@@ -6,7 +6,7 @@
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
     justify-content: center;
-    margin: 92px 0 92px;
+    margin: 92px auto 92px;
     padding: 0;
     width: 100%;
 }
@@ -15,6 +15,7 @@
     .photo-grid{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        width: calc(100% - 96px);
     }
 }
 
@@ -22,6 +23,7 @@
     .photo-grid{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
+        width: calc(100% - 48px);
     }
 }
 
@@ -31,5 +33,6 @@
         grid-template-rows: repeat(12, 1fr);
         grid-gap: 16px;
         margin: 64px auto 64px;
+        width: calc(100% - 32px);
     }
 }
